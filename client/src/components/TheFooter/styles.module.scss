@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    position: sticky;
+    bottom: 0;
+}
+.footer span {
+    cursor: pointer;
+}

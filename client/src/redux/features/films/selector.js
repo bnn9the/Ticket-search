@@ -1,0 +1,1 @@
+export const selectFilmModule = (state) => state.films

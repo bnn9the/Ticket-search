@@ -1,0 +1,22 @@
+.leftSide {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 47px;
+    max-width: 408px;
+}
+
+.leftSide div {
+    border-radius: 8px;
+}
+
+.mainPage {
+    display: flex;
+}
+
+.mainSection {
+    max-width: 100vw;
+}

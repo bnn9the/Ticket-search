@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 24px;
+    position: fixed;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.basket {
+    cursor: pointer;
+}
+
+.divBasket {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.basketCounter {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF5500;
+    border-radius: 8px;
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

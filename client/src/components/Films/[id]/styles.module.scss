@@ -1,0 +1,36 @@
+.itemFilm {
+    width: calc(100vw - 535px);
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-bottom: 16px;
+}
+
+.lSide {
+    display: flex;
+}
+
+.title {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.genre {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.descr {
+    display: flex;
+    flex-direction: column;
+}
+
+.filmImg {
+    border-radius: 8px;
+    margin-right: 24px;
+}

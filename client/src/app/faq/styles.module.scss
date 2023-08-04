@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin-bottom: 48px;
+}
+
+.container button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+    text-align: left;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opened div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opened h2 {
+    margin-bottom: 16px;
+}
+
+.arrowUP {
+    rotate: 180deg;
+}

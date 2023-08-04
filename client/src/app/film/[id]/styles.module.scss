@@ -1,0 +1,44 @@
+.logo {
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    padding: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    margin-bottom: 24px;
+}
+
+.info span {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info span .infoName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info span div{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logoDiv {
+    margin-right: 32px;
+}
+
+.info span div {
+    margin-top: 16px;
+}
